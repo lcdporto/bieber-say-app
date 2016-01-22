@@ -51,7 +51,6 @@
     "disallowCommaBeforeLineBreak": null,
     "disallowDanglingUnderscores": null,
     "disallowEmptyBlocks": true,
-    "disallowMultipleLineStrings": true,
     "disallowTrailingComma": true,
     "requireCommaBeforeLineBreak": true,
     "requireDotNotation": null,

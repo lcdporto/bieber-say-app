@@ -5,10 +5,10 @@
         .module('app.say')
         .service('SayService', Service);
 
-    Service.$inject = ['$q', '$http', 'AppSettings'];
+    Service.$inject = ['$http', 'AppSettings'];
 
     /* @ngInject */
-    function Service($q, $http, AppSettings) {
+    function Service($http, AppSettings) {
         this.execute = execute;
 
         function execute(text) {
@@ -18,7 +18,7 @@
             }).then(function successCallback(response) {
                 console.log(response);
             }, function errorCallback(response) {
-                console.log('error');
+                console.log(response);
             });
 
             /*return ItemsFactory.query(function(data) {
