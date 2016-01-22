@@ -14,9 +14,6 @@
             $urlRouterProvider,
             $mdThemingProvider,
             $resourceProvider,
-            AppSettings,
-            $httpProvider,
-            $provide,
             $mdIconProvider) {
 
             $resourceProvider.defaults.stripTrailingSlashes = false;
@@ -37,9 +34,5 @@
             $mdIconProvider
                 .icon('inbox', 'content/icons/ic_inbox_white_48px.svg', 48)
                 .icon('search', 'content/icons/ic_search_black_48px.svg', 48);
-        })
-
-        .run(function($rootScope, $state) {
-
         });
 })();
