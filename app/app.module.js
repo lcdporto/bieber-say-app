@@ -22,10 +22,7 @@
                               .primaryPalette('blue-grey')
                               .accentPalette('amber');
 
-
             $urlRouterProvider.otherwise('/say');
-
-
 
             // setup icon provider
             // we can register icon and/or iconsets

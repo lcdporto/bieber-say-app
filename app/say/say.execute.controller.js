@@ -18,7 +18,7 @@
         function activate() {
         }
 
-        function say(){
+        function say() {
             SayService.execute(vm.sayText);
         }
     }
