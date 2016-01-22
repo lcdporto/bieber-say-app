@@ -1,0 +1,25 @@
+{
+  "name": "boxsynclab",
+  "version": "0.0.0",
+  "authors": [
+    "Ighor Martins <ighor.martins@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "~0.11.4",
+    "angular-resource": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "angular-animate": "~1.4.7",
+    "satellizer": "~0.13.0"
+  }
+}

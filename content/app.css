@@ -1,0 +1,31 @@
+body{
+    background: #4285F4;
+    color: white;
+}
+
+#page-wrapper{
+    width: 100%;
+    padding: 50px;
+}
+
+#bieber-img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: solid white 3px;
+
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
+#input-say{
+    padding: 10px 20px;
+    font-size: 30px;
+    margin: 0 10px;
+    color: #5D5D5D;
+    opacity: 0.9;
+}
+
+#say-container{
+    font-size: 40px;
+}
